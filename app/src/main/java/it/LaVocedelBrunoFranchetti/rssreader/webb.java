@@ -7,6 +7,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.text.Html;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
@@ -44,11 +45,11 @@ public class webb extends Activity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        String divs = document.select("div.entry-content.clearfix").text();
+        String divs = document.select("div.entry-content.clearfix").html();
         setContentView(R.layout.articleview);
 
         TextView art = (TextView) findViewById(R.id.art);
-        art.setText(divs);
+        art.setText(Html.fromHtml(divs.replaceAll("<img.+?>", "")));
 
         TextView titlein = (TextView) findViewById(R.id.titlein);
         titlein.setText(title);
@@ -108,9 +109,9 @@ public class webb extends Activity {
             public void onClick(View v) {
                 Intent i = new Intent(Intent.ACTION_SEND);
                 i.setType("message/rfc822");
-                i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"giornalino@istitutobrunofranchetti.gov.it"});
+                i.putExtra(Intent.EXTRA_EMAIL, new String[]{"giornalino@istitutobrunofranchetti.gov.it"});
                 i.putExtra(Intent.EXTRA_SUBJECT, "Proposta di un articolo da *inserisci il tuo nome e classe*");
-                i.putExtra(Intent.EXTRA_TEXT   , "Salve, questa mail è stata generata dall'app del Giornalino d'Istituto, allego l'articolo che / argomento che vorrei fosse trattato in un prossimo articolo:");
+                i.putExtra(Intent.EXTRA_TEXT, "Salve, questa mail è stata generata dall'app del Giornalino d'Istituto, allego l'articolo che / argomento che vorrei fosse trattato in un prossimo articolo:");
                 try {
                     startActivity(Intent.createChooser(i, "Scegli come inviarlo:"));
                 } catch (android.content.ActivityNotFoundException ex) {
@@ -121,4 +122,20 @@ public class webb extends Activity {
 
     }
 }
-
+// class ImageGetter implements Html.ImageGetter {
+//    public Drawable getDrawable(String source) {
+//        URL url = null;
+//        try {
+//            url = new URL(source);
+//        } catch (MalformedURLException e) {
+//            e.printStackTrace();
+//        }
+//        try {
+//            Drawable d = new BitmapDrawable(BitmapFactory.decodeStream(url.openConnection().getInputStream()));
+//            d.setBounds( 0, 0, d.getIntrinsicWidth(), d.getIntrinsicHeight());
+//            return d;
+//        } catch (java.io.IOException e) {
+//            return null;
+//        }
+//    }
+// }

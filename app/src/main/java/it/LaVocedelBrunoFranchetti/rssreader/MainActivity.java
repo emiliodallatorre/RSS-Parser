@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
     private ActionBar actionBar;
     private Context context;
     private WebView webView;
+
     private boolean isNetworkAvailable(Context context) {
         ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         return cm.getActiveNetworkInfo() != null;
@@ -70,20 +71,27 @@ public class MainActivity extends AppCompatActivity {
             case R.id.mail:
                 Intent i = new Intent(Intent.ACTION_SEND);
                 i.setType("message/rfc822");
-                i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"emiliodallatorre12@live.com"});
+                i.putExtra(Intent.EXTRA_EMAIL, new String[]{"emiliodallatorre12@live.com"});
                 try {
                     startActivity(Intent.createChooser(i, "Scegli come inviarlo:"));
                 } catch (android.content.ActivityNotFoundException ex) {
                     Toast.makeText(MainActivity.this, "Non risulta esserci alcun client di email attualmente installato su questo dispositivo.", Toast.LENGTH_LONG).show();
                 }
                 break;
+            case R.id.refresh:
+                new HaberServisiAsynTask();
+                break;
             case R.id.rate:
-                try {startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=it.LaVocedelBrunoFranchetti.rssreader")));
-        } catch (android.content.ActivityNotFoundException anfe) {
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=it.LaVocedelBrunoFranchetti.rssreader")));
+                try {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=it.LaVocedelBrunoFranchetti.rssreader")));
+                    break;
+                } catch (android.content.ActivityNotFoundException anfe) {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=it.LaVocedelBrunoFranchetti.rssreader")));
+                }
+                break;
         }
-                break;}
-        return true;}
+        return true;
+    }
 
     protected void onCreate(Bundle savedInstanceState) {
 

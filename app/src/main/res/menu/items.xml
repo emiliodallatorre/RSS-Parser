@@ -14,4 +14,9 @@
         android:id="@+id/mail"
         android:title="Contatta lo sviluppatore"
     />
+
+    <item
+        android:id="@+id/refresh"
+        android:title="Aggiorna la pagina"
+        />
 </menu>

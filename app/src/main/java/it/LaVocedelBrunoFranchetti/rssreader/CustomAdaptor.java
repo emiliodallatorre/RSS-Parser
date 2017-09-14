@@ -25,9 +25,9 @@ import java.util.List;
 
 public class CustomAdaptor extends BaseAdapter {
 
+    StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
     private Context context;
     private List<Model> modelList;
-    StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
 
 
     public CustomAdaptor(Context context, List<Model> modelList) {
