@@ -7,6 +7,8 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.text.Html;
+import android.text.Spanned;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
@@ -17,6 +19,7 @@ import android.widget.Toast;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+import org.sufficientlysecure.htmltextview.HtmlTextView;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -44,7 +47,7 @@ public class webb extends Activity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        String divs = document.select("div.entry-content.clearfix").text();
+        Spanned divs = Html.fromHtml(document.select("div.entry-content.clearfix").html().replaceAll("<img.+?>", ""));
         setContentView(R.layout.articleview);
 
         TextView art = (TextView) findViewById(R.id.art);
