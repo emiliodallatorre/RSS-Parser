@@ -3,183 +3,147 @@
 
     <item
         is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/4246382352de3a7dbe03bc7628671b935efba486/output/jars/classes.jar"
+        jar="C:\Users\emili\.android\build-cache\f513576890d9c880cca6d2997abb30786d1dce4b\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/classes_2aec15cab46fc881ee487b3cd4498b7e50f272ae.jar" />
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_8219949a55bb0a0b22271a09daa82cecbbeeb217.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/7e833314b9cae39cacb56004e012aa65618bf02c/output/jars/classes.jar"
+        jar="C:\Users\emili\.android\build-cache\c90e7d2e320947c0805789215d78977f3fb438f5\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/classes_87e2ca9499a98603117aaa917b9337e4669a4b9d.jar" />
+        sha1="7cf5def5a11365487219b912b2a7ba8ad26f9917">
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_f20964c677b985bdaab0c13b853e861e01c55ee0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/989c4af7ddfc225786b9338f663ffbc3bbf497c4/output/jars/classes.jar"
+        jar="C:\Users\emili\.android\build-cache\31abe3349425dd299a7c805b164b69e0226c2cf5\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/classes_8e08fa088dd07687cec8afd5203ded0cb4ebaf2c.jar" />
+        sha1="cad6f251cba07624f49b0c5b6287731a3c9957b8">
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_426906ab26b8dbbd442bbb6f15acec6e4ead06f9.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/e09033db5e35424b2117a4d646520d7d5cb9c601/output/jars/libs/internal_impl-25.0.1.jar"
+        jar="C:\Users\emili\.android\build-cache\a45613238a54957aa0ae90ae8b90a1c5c110166d\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_84c45388843a98584f38ac0a9d27f1e4d65181d4.jar" />
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_e909f341681d8dfa9a034e1b51ffff8b5168d225.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/29f9b46659496c650aa9960ce5e15dd33fe259f6/output/jars/libs/internal_impl-25.0.1.jar"
+        jar="C:\Users\emili\.android\build-cache\7226b587217aa6c77f3b314036940d76f93aa75b\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_ad3aab027367901cd3584ff61af5c718987c7eb1.jar" />
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_69950b544ed4c6ed31841d3ac02469655e820eb9.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/a8df5f14df91afd98e8dbbd5b075e57c08ac5694/output/jars/classes.jar"
+        jar="C:\Users\emili\.android\build-cache\d3afa165f0fce3f7e6c5425b7ff6ce156f35962a\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/classes_40baf4d2c0ab42e671292b8c27ba421142a83a1f.jar" />
+        sha1="d1a80b23cc4097106a3f4914928e700ac3c5b2ed">
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_5f6f8c702982634a65d65f93924176aa96efabb4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/7b9f45d5170df4ee962aecb3f101efe5088055e3/output/jars/classes.jar"
+        jar="C:\Users\emili\.android\build-cache\911a6a5f01eb27132146e46ac46b460358335121\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/classes_1f71d2fb05f19f1fbfd7bdcee16424b467a13188.jar" />
+        sha1="00e57da8e7efba5e0aead2d3c76201d86918a0d1">
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_b71bb06b77e020bf3495a272f16cc39f75e679d9.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/emiliodallatorre/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.10.2/33ee82e324f4b1e40167f3dc5e01234a1c5cab61/jsoup-1.10.2.jar"
+        jar="C:\Users\emili\.android\build-cache\569cafd34ddd1c3ef5514031eb6e3dc64292ed64\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_af184a63126c4c260166f2c22f1ae04b95c47a8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\emili\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\support-annotations-25.3.1_5e85a2778ef92a75117505f75a398be8e2f0cdec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\emili\.android\build-cache\87d2dcb99f941c0a2aed48e9c381a9916787c414\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_fed063d6f17dca657400d02ad66d062fc6eab5c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\emili\.android\build-cache\20bdb277af7eb1ac08622fd252903dc152ce6732\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_f0bc7379e47f14390b0b72f2246b7164722978eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\emili\.android\build-cache\63865b7474eac96a6ee7d030139906182a1e8160\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_623ec0363b8351e201bde3e07043f145be96fdd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\emili\.android\build-cache\6f3886c1e436ffd30d5784d2f701ae284e913d2e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_f861c53901939cb20b6a755a898b817758baa98a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\emili\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.10.2\33ee82e324f4b1e40167f3dc5e01234a1c5cab61\jsoup-1.10.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="33ee82e324f4b1e40167f3dc5e01234a1c5cab61">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/jsoup-1.10.2_f5b7b91534b9a30ee17c6f50a075e0197cc8ec7e.jar" />
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\jsoup-1.10.2_0fa9693bed39cdbaa3c283cde8baf3c59ffb5838.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/da5aaf0ff1a9943479714234e32876527107e767/output/jars/classes.jar"
+        jar="C:\Users\emili\.android\build-cache\8339ae994b17f015c754ea706dba1ae620910a7b\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/classes_c11dd066f385af47d161c136739fc8467ec610be.jar" />
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_8191652b373e3031b7ff3e6a69860c32cc7b105a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/29f9b46659496c650aa9960ce5e15dd33fe259f6/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/classes_6a0005fae6a162ad4fc41d8403ec966244e85b6d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/62584e9a0937b3d401f744d056a3cecf3c284b23/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/classes_ef203382c81d4ac78636bf52d2b26d4014647df9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/7e833314b9cae39cacb56004e012aa65618bf02c/output/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_bb40472ac3fb4d7cdbc4b5f35b1b264d51c4e066.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/d7b8636047da1dd2729abc635873486bef6c0c00/output/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_cc6d7f4125bb3cff7a012b4b5c6f02b8b8c2f3e1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/emiliodallatorre/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/support-annotations-26.0.0-alpha1_aabe90797c30df47a98c379f5c9999ec010622fb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/8f896836b2152936d11bbbca66b4d577768e64ca/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/classes_a9ab9816097a70ec7f518f4674f5dc757e05a6a4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/da5aaf0ff1a9943479714234e32876527107e767/output/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_54ef3acb482dba3e4e07614c37e7ba304ae1e4db.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/d9b80f34aa816912a7afd45147776f43f56bfea5/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/classes_99776253f192ae4118172153c57c770886962d0c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/cf42655c85d434b458a8e134f57549d12e7b586e/output/jars/classes.jar"
+        jar="C:\Users\emili\.android\build-cache\49641a543f13457656dc8d3490b79d0edd171f0e\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/classes_b6b5fcd2e350829c51c1663f9801b6e4350579f7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/d7b8636047da1dd2729abc635873486bef6c0c00/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/classes_63531cbd9354d1d7a8796cd2ae5515954cae627e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/emiliodallatorre/.android/build-cache/e09033db5e35424b2117a4d646520d7d5cb9c601/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/emiliodallatorre/OneDrive/Documenti/Funziona - HTML parser/app/build/intermediates/pre-dexed/release/classes_9505b017d469af9f179a9aa59383c29521cde39b.jar" />
+        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_a28d0e4a05580a83c5e6d802906333925f82aa20.jar" />
     </item>
 
 </items>

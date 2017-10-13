@@ -19,6 +19,10 @@ import android.webkit.WebView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 import org.jsoup.Jsoup;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -36,8 +40,6 @@ import java.util.List;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-
-import static it.LaVocedelBrunoFranchetti.rssreader.R.layout.activity_main;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -87,13 +89,11 @@ public class MainActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
 
-
         super.onCreate(savedInstanceState);
 
-        setContentView(activity_main);
+        setContentView(R.layout.activity_main);
 
         listView = (ListView) findViewById(R.id.listView);
-
 
         new HaberServisiAsynTask().execute("http://istitutobrunofranchetti.gov.it/giornalino/feed/");
 
@@ -104,6 +104,11 @@ public class MainActivity extends AppCompatActivity {
 
 
         actionBar.setCustomView(R.layout.action_bar_title);
+
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-4586118376037791~8745478356");
+        AdView mAdView = (AdView) this.findViewById(R.id.adViewINMAIN);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
 
     class HaberServisiAsynTask extends AsyncTask<String, String, List<Model>> {
