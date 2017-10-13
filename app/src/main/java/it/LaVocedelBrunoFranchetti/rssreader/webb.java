@@ -16,10 +16,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.sufficientlysecure.htmltextview.HtmlTextView;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -42,6 +45,7 @@ public class webb extends Activity {
         final String creator = getIntent().getStringExtra("creator");
         StrictMode.setThreadPolicy(policy);
         Document document = null;
+
         try {
             document = Jsoup.connect(link).userAgent("Mozilla").get();
         } catch (IOException e) {
@@ -49,6 +53,11 @@ public class webb extends Activity {
         }
         Spanned divs = Html.fromHtml(document.select("div.entry-content.clearfix").html().replaceAll("<img.+?>", ""));
         setContentView(R.layout.articleview);
+
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-4586118376037791~8745478356");
+        AdView mAdView = (AdView) this.findViewById(R.id.adViewINART);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         TextView art = (TextView) findViewById(R.id.art);
         art.setText(divs);
