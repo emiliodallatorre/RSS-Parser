@@ -181,6 +181,7 @@ public class MainActivity extends AppCompatActivity {
                         model.setDate(date);
                         model.setCreator(creator);
                         model.setImage(resizedbitmap);
+                        model.setDesc(description);
                         modelList.add(model);
                         publishProgress("Caricamento...");
                     }

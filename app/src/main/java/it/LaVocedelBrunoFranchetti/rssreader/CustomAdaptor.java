@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.StrictMode;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +13,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -28,7 +32,7 @@ public class CustomAdaptor extends BaseAdapter {
     private Context context;
     private List<Model> modelList;
     StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-
+    private InterstitialAd mInterstitialAd;
 
     public CustomAdaptor(Context context, List<Model> modelList) {
         this.context = context;
@@ -58,6 +62,7 @@ public class CustomAdaptor extends BaseAdapter {
         LinearLayout rootView = (LinearLayout) ((Activity) context).getLayoutInflater().inflate(R.layout.custom_list, null);
         TextView date_and_creator = (TextView) rootView.findViewById(R.id.date_and_creator);
         final TextView title = (TextView) rootView.findViewById(R.id.title);
+        final TextView description = (TextView) rootView.findViewById(R.id.description);
         final ImageView image = (ImageView) rootView.findViewById(R.id.resim);
         final Model model = modelList.get(i);
 
@@ -65,15 +70,24 @@ public class CustomAdaptor extends BaseAdapter {
 
         DateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
         title.setText(model.getTitle());
+        description.setText(model.getDesc().replaceAll("&#.+?a>", "..."));
         date_and_creator.
                 setText(String.format("%02d:%02d", date.getHours(), date.getMinutes()) + " | " +
                         dateFormat.format(date) + "   |   " +
                         model.getCreator());
         Bitmap bitmap = model.getImage();
         image.setImageBitmap(bitmap);
+        mInterstitialAd = new InterstitialAd(context);
+        mInterstitialAd.setAdUnitId("ca-app-pub-4586118376037791/3175059652");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         rootView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
+                if (mInterstitialAd.isLoaded()) {
+                    mInterstitialAd.show();
+                } else {
+                    Log.d("TAG", "The interstitial wasn't loaded yet.");
+                }
                 String link = (model.getLink());
                 String title = (model.getTitle());
                 String creator = (model.getCreator());
@@ -82,7 +96,6 @@ public class CustomAdaptor extends BaseAdapter {
                 intent.putExtra("title", title);
                 intent.putExtra("creator", creator);
                 context.startActivity(intent);
-
             }
 
         });
@@ -90,7 +103,6 @@ public class CustomAdaptor extends BaseAdapter {
         rootView.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
-
                 return false;
             }
         });

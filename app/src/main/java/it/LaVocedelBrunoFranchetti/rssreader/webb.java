@@ -45,6 +45,7 @@ public class webb extends Activity {
         final String creator = getIntent().getStringExtra("creator");
         StrictMode.setThreadPolicy(policy);
         Document document = null;
+        setContentView(R.layout.articleview);
 
         try {
             document = Jsoup.connect(link).userAgent("Mozilla").get();
@@ -52,7 +53,6 @@ public class webb extends Activity {
             e.printStackTrace();
         }
         Spanned divs = Html.fromHtml(document.select("div.entry-content.clearfix").html().replaceAll("<img.+?>", ""));
-        setContentView(R.layout.articleview);
 
         MobileAds.initialize(getApplicationContext(), "ca-app-pub-4586118376037791~8745478356");
         AdView mAdView = (AdView) this.findViewById(R.id.adViewINART);

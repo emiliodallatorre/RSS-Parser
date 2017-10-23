@@ -13,6 +13,7 @@ public class Model {
     private String creator;
     private String link;
     private Bitmap image;
+    private String description;
 
     public String getTitle() {
         return title;
@@ -49,8 +50,17 @@ public class Model {
     public Bitmap getImage() {
         return image;
     }
+
     public void setImage(Bitmap image) {
         this.image = image;
     }
+
+    public String getDesc() {
+        return description;
     }
+
+    public void setDesc(String description) {
+        this.description = description;
+    }
+}
 
