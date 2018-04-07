@@ -5,18 +5,17 @@ android {
         release {
             keyAlias 'emiliodallatorre'
             keyPassword 'blindEye1201'
-            storeFile file('C:/Users/emili/OneDrive/Documenti/KeyStore.jks')
+            storeFile file('C:/Users/Emilio Dalla Torre/OneDrive/Documenti/KeyStore.jks')
             storePassword 'blindEye1201'
         }
     }
     compileSdkVersion 25
-    buildToolsVersion "25.0.1"
     defaultConfig {
         applicationId "it.LaVocedelBrunoFranchetti.rssreader"
         minSdkVersion 17
         targetSdkVersion 25
-        versionCode 3
-        versionName "2.1 - 13 ott 2017"
+        versionCode 6
+        versionName "2.2 - 7 apr 2018"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

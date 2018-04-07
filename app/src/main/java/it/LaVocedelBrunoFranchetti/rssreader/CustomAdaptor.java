@@ -56,9 +56,10 @@ public class CustomAdaptor extends BaseAdapter {
         StrictMode.setThreadPolicy(policy);
 
         LinearLayout rootView = (LinearLayout) ((Activity) context).getLayoutInflater().inflate(R.layout.custom_list, null);
-        TextView date_and_creator = (TextView) rootView.findViewById(R.id.date_and_creator);
+        final TextView date_and_creator = (TextView) rootView.findViewById(R.id.date_and_creator);
         final TextView title = (TextView) rootView.findViewById(R.id.title);
-        final ImageView image = (ImageView) rootView.findViewById(R.id.resim);
+//        final ImageView image = (ImageView) rootView.findViewById(R.id.resim);
+//        final TextView description = (TextView) rootView.findViewById(R.id.description);
         final Model model = modelList.get(i);
 
         Date date = new Date(model.getDate());
@@ -69,9 +70,10 @@ public class CustomAdaptor extends BaseAdapter {
                 setText(String.format("%02d:%02d", date.getHours(), date.getMinutes()) + " | " +
                         dateFormat.format(date) + "   |   " +
                         model.getCreator());
-        Bitmap bitmap = model.getImage();
+/*        Bitmap bitmap = model.getImage();
         image.setImageBitmap(bitmap);
-
+        description.setText(description.toString());
+*/
         rootView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 String link = (model.getLink());
@@ -82,7 +84,6 @@ public class CustomAdaptor extends BaseAdapter {
                 intent.putExtra("title", title);
                 intent.putExtra("creator", creator);
                 context.startActivity(intent);
-
             }
 
         });
@@ -90,7 +91,6 @@ public class CustomAdaptor extends BaseAdapter {
         rootView.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
-
                 return false;
             }
         });

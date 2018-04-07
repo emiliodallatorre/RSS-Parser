@@ -51,14 +51,14 @@ public class webb extends Activity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Spanned divs = Html.fromHtml(document.select("div.entry-content.clearfix").html().replaceAll("<img.+?>", ""));
+        Spanned divs = Html.fromHtml(document.select("div.entry-content").html().replaceAll("<img.+?>", ""));
         setContentView(R.layout.articleview);
 
-        MobileAds.initialize(getApplicationContext(), "ca-app-pub-4586118376037791~8745478356");
+/*        MobileAds.initialize(getApplicationContext(), "ca-app-pub-4586118376037791~8745478356");
         AdView mAdView = (AdView) this.findViewById(R.id.adViewINART);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
-
+*/
         TextView art = (TextView) findViewById(R.id.art);
         art.setText(divs);
 

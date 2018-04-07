@@ -3,9 +3,9 @@ package it.LaVocedelBrunoFranchetti.rssreader;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
+/* import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.net.ConnectivityManager;
+*/ import android.net.ConnectivityManager;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -19,12 +19,12 @@ import android.webkit.WebView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
+/* import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
 import org.jsoup.Jsoup;
-import org.w3c.dom.Document;
+*/ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
@@ -32,7 +32,7 @@ import org.xml.sax.SAXException;
 import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
+// import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -105,11 +105,11 @@ public class MainActivity extends AppCompatActivity {
 
         actionBar.setCustomView(R.layout.action_bar_title);
 
-        MobileAds.initialize(getApplicationContext(), "ca-app-pub-4586118376037791~8745478356");
+/*        MobileAds.initialize(getApplicationContext(), "ca-app-pub-4586118376037791~8745478356");
         AdView mAdView = (AdView) this.findViewById(R.id.adViewINMAIN);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
-    }
+*/    }
 
     class HaberServisiAsynTask extends AsyncTask<String, String, List<Model>> {
 
@@ -143,15 +143,15 @@ public class MainActivity extends AppCompatActivity {
                         NodeList nodeListLink = element.getElementsByTagName("link");
                         NodeList nodeListDate = element.getElementsByTagName("pubDate");
                         NodeList nodeListCreator = element.getElementsByTagName("dc:creator");
-                        NodeList nodeListDescription = element.getElementsByTagName("description");
+//                        NodeList nodeListDescription = element.getElementsByTagName("description");
 
                         String title = nodeListTitle.item(0).getFirstChild().getNodeValue();
                         String link = nodeListLink.item(0).getFirstChild().getNodeValue();
                         String date = nodeListDate.item(0).getFirstChild().getNodeValue();
                         String creator = nodeListCreator.item(0).getFirstChild().getNodeValue();
-                        String description = nodeListDescription.item(0).getFirstChild().getNodeValue();
+//                        String description = nodeListDescription.item(0).getFirstChild().getNodeValue();
 
-                        String imgurl = null;
+/*                        String imgurl = null;
                         org.jsoup.nodes.Document documentA = null;
                         try {
                             documentA = Jsoup.connect(link).userAgent("Mozilla").get();
@@ -175,13 +175,14 @@ public class MainActivity extends AppCompatActivity {
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
-                        Model model = new Model();
+*/                        Model model = new Model();
                         model.setTitle(title);
                         model.setLink(link);
                         model.setDate(date);
                         model.setCreator(creator);
-                        model.setImage(resizedbitmap);
-                        modelList.add(model);
+/*                        model.setImage(resizedbitmap);
+                        model.setDescription(description);
+*/                        modelList.add(model);
                         publishProgress("Caricamento...");
                     }
 
@@ -227,5 +228,4 @@ public class MainActivity extends AppCompatActivity {
             progressDialog.setMessage(values[0]);
         }
     }
-
 }

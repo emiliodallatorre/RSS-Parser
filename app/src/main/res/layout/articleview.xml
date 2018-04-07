@@ -80,14 +80,14 @@
                 android:layout_height="wrap_content"
                 android:text="Visualizza la versione completa di questo articolo!" />
 
-            <com.google.android.gms.ads.AdView
-                android:id="@+id/adViewINART"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-4586118376037791/5427096169" />
+            <!--            <com.google.android.gms.ads.AdView
+                            android:id="@+id/adViewINART"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            ads:adSize="BANNER"
+                            ads:adUnitId="ca-app-pub-4586118376037791/5427096169" />
+-->
+                    </LinearLayout>
+                </ScrollView>
 
-        </LinearLayout>
-    </ScrollView>
-
-</RelativeLayout>
+            </RelativeLayout>

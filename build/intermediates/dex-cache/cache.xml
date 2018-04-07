@@ -3,147 +3,163 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\emili\.android\build-cache\f513576890d9c880cca6d2997abb30786d1dce4b\output\jars\classes.jar"
+        jar="C:\Users\Emilio Dalla Torre\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\5950d87dfec58fa5f1e7acfbae6a9e79\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="17"
         optimize="true"
-        revision="25.0.1"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_8219949a55bb0a0b22271a09daa82cecbbeeb217.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\emili\.android\build-cache\c90e7d2e320947c0805789215d78977f3fb438f5\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="7cf5def5a11365487219b912b2a7ba8ad26f9917">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_f20964c677b985bdaab0c13b853e861e01c55ee0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\emili\.android\build-cache\31abe3349425dd299a7c805b164b69e0226c2cf5\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="cad6f251cba07624f49b0c5b6287731a3c9957b8">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_426906ab26b8dbbd442bbb6f15acec6e4ead06f9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\emili\.android\build-cache\a45613238a54957aa0ae90ae8b90a1c5c110166d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_e909f341681d8dfa9a034e1b51ffff8b5168d225.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\emili\.android\build-cache\7226b587217aa6c77f3b314036940d76f93aa75b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_69950b544ed4c6ed31841d3ac02469655e820eb9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\emili\.android\build-cache\d3afa165f0fce3f7e6c5425b7ff6ce156f35962a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d1a80b23cc4097106a3f4914928e700ac3c5b2ed">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_5f6f8c702982634a65d65f93924176aa96efabb4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\emili\.android\build-cache\911a6a5f01eb27132146e46ac46b460358335121\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="00e57da8e7efba5e0aead2d3c76201d86918a0d1">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_b71bb06b77e020bf3495a272f16cc39f75e679d9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\emili\.android\build-cache\569cafd34ddd1c3ef5514031eb6e3dc64292ed64\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
+        revision="26.0.2"
         sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_af184a63126c4c260166f2c22f1ae04b95c47a8b.jar" />
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\1.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\emili\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jar="C:\Users\Emilio Dalla Torre\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\5f0acec92debce130aa5ce0d993b656a\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="17"
         optimize="true"
-        revision="25.0.1"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\support-annotations-25.3.1_5e85a2778ef92a75117505f75a398be8e2f0cdec.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\emili\.android\build-cache\87d2dcb99f941c0a2aed48e9c381a9916787c414\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_fed063d6f17dca657400d02ad66d062fc6eab5c4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\emili\.android\build-cache\20bdb277af7eb1ac08622fd252903dc152ce6732\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
+        revision="26.0.2"
         sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_f0bc7379e47f14390b0b72f2246b7164722978eb.jar" />
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\11.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\emili\.android\build-cache\63865b7474eac96a6ee7d030139906182a1e8160\output\jars\classes.jar"
+        jar="C:\Users\Emilio Dalla Torre\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.2.0.aar\20fed7a2abc1016d3380a78a64bc6efb\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="17"
         optimize="true"
-        revision="25.0.1"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_623ec0363b8351e201bde3e07043f145be96fdd4.jar" />
+        revision="26.0.2"
+        sha1="d1a80b23cc4097106a3f4914928e700ac3c5b2ed">
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\emili\.android\build-cache\6f3886c1e436ffd30d5784d2f701ae284e913d2e\output\jars\classes.jar"
+        jar="C:\Users\Emilio Dalla Torre\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d38a5297894e0e3d774a7565fa4d3f2a\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="17"
         optimize="true"
-        revision="25.0.1"
+        revision="26.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Emilio Dalla Torre\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4d4d103404b8fc57195ba5b508118f2a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Emilio Dalla Torre\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Emilio Dalla Torre\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\d59b82c988458a86c3c1df7041f04516\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Emilio Dalla Torre\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.2.0.aar\b839bfeaf15d0e475d8566ca4dd556af\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7cf5def5a11365487219b912b2a7ba8ad26f9917">
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Emilio Dalla Torre\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.2.0.aar\119edb3bc9589e6d89ebfbd778e16d49\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cad6f251cba07624f49b0c5b6287731a3c9957b8">
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Emilio Dalla Torre\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\1c156d6e1ca62ee1ef3cca6e342b0927\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
         sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_f861c53901939cb20b6a755a898b817758baa98a.jar" />
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\15.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\emili\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.10.2\33ee82e324f4b1e40167f3dc5e01234a1c5cab61\jsoup-1.10.2.jar"
+        jar="C:\Users\Emilio Dalla Torre\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\598d5ab79854121a2eed1e4df75455c5\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="17"
         optimize="true"
-        revision="25.0.1"
-        sha1="33ee82e324f4b1e40167f3dc5e01234a1c5cab61">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\jsoup-1.10.2_0fa9693bed39cdbaa3c283cde8baf3c59ffb5838.jar" />
+        revision="26.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\12.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\emili\.android\build-cache\8339ae994b17f015c754ea706dba1ae620910a7b\output\jars\classes.jar"
+        jar="C:\Users\Emilio Dalla Torre\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.2.0.aar\d423731763348b67fa24001fa6e452ff\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="17"
         optimize="true"
-        revision="25.0.1"
-        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_8191652b373e3031b7ff3e6a69860c32cc7b105a.jar" />
+        revision="26.0.2"
+        sha1="00e57da8e7efba5e0aead2d3c76201d86918a0d1">
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\emili\.android\build-cache\49641a543f13457656dc8d3490b79d0edd171f0e\output\jars\classes.jar"
+        jar="C:\Users\Emilio Dalla Torre\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\a034c26ef2feffcf0f8db106352c4be7\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="17"
         optimize="true"
-        revision="25.0.1"
+        revision="26.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\Programmi\Miei\GitHub\RSS-Parser\app\build\intermediates\pre-dexed\release\classes_a28d0e4a05580a83c5e6d802906333925f82aa20.jar" />
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Emilio Dalla Torre\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\900bbbe6cf25a45d29db06e8ed9e3928\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Emilio Dalla Torre\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\ce9f95e08bca0ec6495e36c7907c1c49\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Emilio Dalla Torre\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.10.2\33ee82e324f4b1e40167f3dc5e01234a1c5cab61\jsoup-1.10.2.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="33ee82e324f4b1e40167f3dc5e01234a1c5cab61">
+        <dex dex="E:\Programmi\GitHub\RSS-Parser\app\build\intermediates\transforms\preDex\release\3.jar" />
     </item>
 
 </items>
